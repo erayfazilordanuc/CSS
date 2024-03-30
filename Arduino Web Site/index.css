@@ -1,0 +1,53 @@
+header {
+
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(255, 145, 0);
+
+}
+
+html {
+
+    background-color: rgba(233, 233, 233, 0.861);
+
+}
+
+body {
+
+    font-family: Arial;
+
+}
+
+.link {
+
+    text-decoration: none;
+    color: #787878;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Bölümleri araya sıkıştırmak için */
+    margin: 20px;
+}
+.section {
+    width: 59.5%; /* Bölümlerin genişliği */
+}
+.sectionHead {
+    background-color: #fcfcfc;
+    width: 37%; /* Bölümlerin genişliği */
+    height: 650px;
+    padding: 10px;
+}
+h1 {
+    color: rgb(255, 145, 0);
+}
+h2 {
+    font-size: 18px;
+}
+p {
+    
+    font-size: 18px;
+    font-family: Arial;
+    color: #787878;
+
+}

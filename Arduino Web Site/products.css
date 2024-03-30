@@ -1,0 +1,62 @@
+header {
+
+    font-size: 13px;
+    font-family: Arial;
+    color: rgb(255, 145, 0);
+
+}
+
+html {
+
+    background-color: rgba(233, 233, 233, 0.861);
+
+}
+
+body {
+
+    font-family: Arial;
+
+
+}
+
+.link {
+
+    text-decoration: none;
+    color: #787878;
+    
+}
+.container {
+    align-items: center;
+    display: flex;
+    justify-content:space-between; /* Bölümleri araya sıkıştırmak için */
+    margin: 20px;
+}
+.section {
+    height: 10%; /* Bölümlerin genişliği */
+    border: 1px solid #ccc;
+}
+.sectionW {
+    background-color: #fcfcfc;
+    text-align: left;
+    text-align: center;
+    width: 77%; /* Bölümlerin genişliği */
+    /* border: 1px solid #ccc; */
+    color: rgb(255, 145, 0);
+    font-family: Arial;
+    font-size: 19px;
+}
+.sectionHead {
+    color: #787878;
+    width: 37%; /* Bölümlerin genişliği */
+    height: 20%;
+    padding: 10px;
+}
+h1 {
+    color: rgb(255, 145, 0);
+}
+h2 {
+    font-size: 18px;
+}
+.text {
+    margin-left: 20px;
+}
